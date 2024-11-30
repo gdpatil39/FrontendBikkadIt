@@ -1,0 +1,36 @@
+
+/*this direct element or tag selctor*/
+table {
+    background-color: powderblue;
+    border-radius: 15px;
+  }
+
+  /*this id selctor*/
+  #element1{
+    background-color: red;
+  }
+ /* this is class selctor */
+
+  .center {
+    text-align: center;
+    color: red;
+    
+  }
+
+  .margin-class{
+    border: 1px solid black;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+  .margin-class2
+  { margin: 25px 50px 75px 100px;}
+
+  .Padding-class1{
+padding-top: 0%;
+  }
+  .Padding-class2{
+padding: 0 0 0 0 ;
+  }

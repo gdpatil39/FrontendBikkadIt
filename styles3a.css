@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* two ways horizotal(row) or vetical(column) */
+    justify-content: space-between;
+    /*space betn line*/
+    align-items: center;
+    padding: 16;
+    /*padding margin always multipler of 4px ,now item ae in side by side*/
+}
+
+.item {
+    /*parent(container) is flex so child is also flex ,not grid */
+    flex: 1;
+    padding: 12px;
+    background-color: red;
+    /*now no one is separeted with color so we use marigi to to gap betn two unit */
+    margin: 0 12px;
+    /* for flex-direction:column   margin:12px 0; */
+    text-align: center;
+    border-radius: 36%;
+}
+
+/* 
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+
+    parent(container) is flex so child is also flex,
+    not grid flex: 1;
+    padding: 12px;
+    background-color: red;
+    now no one is separeted so we use marigi to to gap betn two unit margin: 12px 0;
+
+    text-align: center;
+} */
